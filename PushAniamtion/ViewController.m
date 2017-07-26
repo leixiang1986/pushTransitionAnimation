@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PushedViewController.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)pushClick:(id)sender {
+    PushedViewController *pushedVC = [[PushedViewController alloc] init];
+    [self.navigationController pushViewController:pushedVC animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

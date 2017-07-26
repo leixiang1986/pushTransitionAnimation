@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PushedViewController.h
 //  PushAniamtion
 //
 //  Created by 雷祥 on 2017/7/26.
@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "WTKBaseViewController.h"
 
-@interface ViewController : WTKBaseViewController
-
+@interface PushedViewController : WTKBaseViewController
 
 @end
-

@@ -15,6 +15,12 @@
 		D3A908D31F287600005609CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A908D11F287600005609CD /* LaunchScreen.storyboard */; };
 		D3A908DE1F287600005609CD /* PushAniamtionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A908DD1F287600005609CD /* PushAniamtionTests.m */; };
 		D3A908E91F287600005609CD /* PushAniamtionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A908E81F287600005609CD /* PushAniamtionUITests.m */; };
+		D3A908FE1F28851E005609CD /* WTKAnimationDiffNavi.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A908F71F28851E005609CD /* WTKAnimationDiffNavi.m */; };
+		D3A908FF1F28851E005609CD /* WTKBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A908F91F28851E005609CD /* WTKBaseAnimation.m */; };
+		D3A909001F28851E005609CD /* WTKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A908FB1F28851E005609CD /* WTKBaseViewController.m */; };
+		D3A909011F28851E005609CD /* WTKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A908FD1F28851E005609CD /* WTKNavigationController.m */; };
+		D3A909041F288585005609CD /* PushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A909031F288585005609CD /* PushedViewController.m */; };
+		D3A909071F288715005609CD /* UIViewController+WTKAnimationTransitioningSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A909061F288715005609CD /* UIViewController+WTKAnimationTransitioningSnapshot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		D3A908E41F287600005609CD /* PushAniamtionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushAniamtionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A908E81F287600005609CD /* PushAniamtionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushAniamtionUITests.m; sourceTree = "<group>"; };
 		D3A908EA1F287600005609CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A908F61F28851E005609CD /* WTKAnimationDiffNavi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKAnimationDiffNavi.h; sourceTree = "<group>"; };
+		D3A908F71F28851E005609CD /* WTKAnimationDiffNavi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKAnimationDiffNavi.m; sourceTree = "<group>"; };
+		D3A908F81F28851E005609CD /* WTKBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKBaseAnimation.h; sourceTree = "<group>"; };
+		D3A908F91F28851E005609CD /* WTKBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKBaseAnimation.m; sourceTree = "<group>"; };
+		D3A908FA1F28851E005609CD /* WTKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKBaseViewController.h; sourceTree = "<group>"; };
+		D3A908FB1F28851E005609CD /* WTKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKBaseViewController.m; sourceTree = "<group>"; };
+		D3A908FC1F28851E005609CD /* WTKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKNavigationController.h; sourceTree = "<group>"; };
+		D3A908FD1F28851E005609CD /* WTKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKNavigationController.m; sourceTree = "<group>"; };
+		D3A909021F288585005609CD /* PushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushedViewController.h; sourceTree = "<group>"; };
+		D3A909031F288585005609CD /* PushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushedViewController.m; sourceTree = "<group>"; };
+		D3A909051F288715005609CD /* UIViewController+WTKAnimationTransitioningSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WTKAnimationTransitioningSnapshot.h"; sourceTree = "<group>"; };
+		D3A909061F288715005609CD /* UIViewController+WTKAnimationTransitioningSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WTKAnimationTransitioningSnapshot.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,22 @@
 		D3A908C21F287600005609CD /* PushAniamtion */ = {
 			isa = PBXGroup;
 			children = (
+				D3A909051F288715005609CD /* UIViewController+WTKAnimationTransitioningSnapshot.h */,
+				D3A909061F288715005609CD /* UIViewController+WTKAnimationTransitioningSnapshot.m */,
+				D3A908F61F28851E005609CD /* WTKAnimationDiffNavi.h */,
+				D3A908F71F28851E005609CD /* WTKAnimationDiffNavi.m */,
+				D3A908F81F28851E005609CD /* WTKBaseAnimation.h */,
+				D3A908F91F28851E005609CD /* WTKBaseAnimation.m */,
+				D3A908FA1F28851E005609CD /* WTKBaseViewController.h */,
+				D3A908FB1F28851E005609CD /* WTKBaseViewController.m */,
+				D3A908FC1F28851E005609CD /* WTKNavigationController.h */,
+				D3A908FD1F28851E005609CD /* WTKNavigationController.m */,
 				D3A908C61F287600005609CD /* AppDelegate.h */,
 				D3A908C71F287600005609CD /* AppDelegate.m */,
 				D3A908C91F287600005609CD /* ViewController.h */,
 				D3A908CA1F287600005609CD /* ViewController.m */,
+				D3A909021F288585005609CD /* PushedViewController.h */,
+				D3A909031F288585005609CD /* PushedViewController.m */,
 				D3A908CC1F287600005609CD /* Main.storyboard */,
 				D3A908CF1F287600005609CD /* Assets.xcassets */,
 				D3A908D11F287600005609CD /* LaunchScreen.storyboard */,
@@ -277,8 +307,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A908CB1F287600005609CD /* ViewController.m in Sources */,
+				D3A909041F288585005609CD /* PushedViewController.m in Sources */,
 				D3A908C81F287600005609CD /* AppDelegate.m in Sources */,
+				D3A909001F28851E005609CD /* WTKBaseViewController.m in Sources */,
+				D3A909011F28851E005609CD /* WTKNavigationController.m in Sources */,
+				D3A908FE1F28851E005609CD /* WTKAnimationDiffNavi.m in Sources */,
+				D3A908FF1F28851E005609CD /* WTKBaseAnimation.m in Sources */,
 				D3A908C51F287600005609CD /* main.m in Sources */,
+				D3A909071F288715005609CD /* UIViewController+WTKAnimationTransitioningSnapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = PushAniamtion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.okdeer.PushAniamtion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = PushAniamtion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.okdeer.PushAniamtion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
